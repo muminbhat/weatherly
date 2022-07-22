@@ -19,3 +19,6 @@ def contact(request):
         contact.save()
 
         return redirect('home')
+
+def about(request):
+    return render(request, 'index.html')
